@@ -1,0 +1,14 @@
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Local ClickHouse data and logs (if bind-mounted)
+data/
+logs/
+
+# Editor and operating system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
